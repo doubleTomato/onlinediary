@@ -4,5 +4,20 @@
     "firebase": "^11.3.1",
     "lucide-react": "^0.475.0",
     "zustand": "^5.0.3"
+  },
+  "name": "onlinediary",
+  "version": "1.0.0",
+  "description": "리액트 미니 프로젝트 온라인 다이어리",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9"
   }
 }
