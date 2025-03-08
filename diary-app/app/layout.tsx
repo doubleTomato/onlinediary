@@ -1,13 +1,17 @@
+import Header from "../components/header";
 import "./globals.css";
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html>
         <body>
-            <div className="size-[80%] bg-red-500">
-              <main>{children}</main>
-              <footer className="bg-gray-100 p-4 text-center text-sm">
-                © {new Date().getFullYear()} DiaryApp
-              </footer>
+          <div className="flex">
+            <Header></Header>
+              <div className="size-[85%] h-lvh">
+                <main>{children}</main>
+                <footer className="bg-gray-100 p-4 text-center text-sm">
+                  © {new Date().getFullYear()} DiaryApp
+                </footer>
+              </div>
             </div>
         </body>
     </html>
